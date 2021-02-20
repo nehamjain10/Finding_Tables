@@ -1,0 +1,23 @@
+_BASE_: "configs/Base-RCNN-FPN.yaml"
+MODEL:
+  WEIGHTS: "X-152-32x8d-IN5k.pkl"
+  MASK_ON: False
+  PIXEL_STD: [57.375, 57.120, 58.395]
+  RESNETS:
+    STRIDE_IN_1X1: False  
+    NUM_GROUPS: 32
+    WIDTH_PER_GROUP: 8
+    DEPTH: 152
+  ROI_HEADS:
+    NUM_CLASSES: 1
+SOLVER:
+  STEPS: (88000, 99000)
+  MAX_ITER: 110000
+  IMS_PER_BATCH: 24
+  BASE_LR: 0.03
+DATASETS:
+  TRAIN: ("tablebank_word_train", "tablebank_latex_train")
+  TEST: ("tablebank_word_val", "tablebank_latex_val")
+DATALOADER:
+  NUM_WORKERS: 2
+OUTPUT_DIR: "output/X152/All_X152"
