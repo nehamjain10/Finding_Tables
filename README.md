@@ -79,9 +79,9 @@ Example from Structure Recognition:
 <br>
 <p>
 
-If you are having troubles getting it to work, please feel free to contact me.
+If you are having troubles getting it to work, please feel free to contact me or raise an issue
 
 </p>
 <br>
 <p>
-Neham Jain (9328311831)
+Neham (nehamjain2002@gmail.com) & Tanay (dixittanay@gmail.com)
