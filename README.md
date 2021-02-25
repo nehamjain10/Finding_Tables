@@ -6,7 +6,7 @@
 <br>
 
 ## 1. Introduction
-Finding Tables is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a finetuned model on our invoice data which is already pretrained on TableBank. Finding Tables is a Faster RCNN High-Resolution Network that detects the regions of tables. For our structure recognition we propose an entirely novel approach leveraging the SOTA methods in NLP. We basically feed in the image and we get question answers pairs and on the basis of that we can transform it into tables.
+Finding Tables is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a finetuned model on our invoice data which is already pretrained on TableBank. Finding Tables is a Faster RCNN High-Resolution Network that detects the regions of tables. For our structure recognition we propose an entirely novel approach leveraging the SOTA methods in NLP. We use layoutLM a BERT based model to process the text in the image and map them as question answers pairs, so that we can then transform it into json files.
 
 
 ## 2. Setting it all up 
