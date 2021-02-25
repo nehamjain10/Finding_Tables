@@ -73,6 +73,8 @@ Detecting Images:
 
 Example from Structure Recognition:
 
+![alt text](imgs/Finding_Tables.png)
+
 ![alt text](imgs/output1.jpg)
 
 
