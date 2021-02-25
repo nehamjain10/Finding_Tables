@@ -1,4 +1,4 @@
-# Finding Tables
+# Subex Hackathon
 
 > An end to end Deep Learning approach for table detection and structure recognition from invoice documents
 
