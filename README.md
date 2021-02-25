@@ -2,7 +2,7 @@
 
 > An end to end Deep Learning approach for table detection and structure recognition from invoice documents
 
-## Results: 2nd Solution
+## Results: 2nd Place Solution out of 150+ participants
 <br>
 
 ## 1. Introduction
