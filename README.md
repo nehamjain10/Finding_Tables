@@ -1,13 +1,12 @@
-# Finding Tables
+# Subex Hackathon
 
 > An end to end Deep Learning approach for table detection and structure recognition from invoice documents
 
-
-![alt text](imgs/Subex.jpg)
-
+## Results: 1st Place out of 150+ participants
+<br>
 
 ## 1. Introduction
-Finding Tables is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a finetuned model on our invoice data which is already pretrained on TableBank. Finding Tables is a Faster RCNN High-Resolution Network that detects the regions of tables. For our structure recognition we propose an entirely novel approach leveraging the SOTA methods in NLP. We basically feed in the image and we get question answers pairs and on the basis of that we can transform it into tables.
+Finding Tables is an automatic table recognition method for interpretation of tabular data in document images. We present an improved deep learning-based end to end approach for solving both problems of table detection and structure recognition using a finetuned model on our invoice data which is already pretrained on TableBank. Finding Tables is a Faster RCNN High-Resolution Network that detects the regions of tables. For our structure recognition we propose an entirely novel approach leveraging the SOTA methods in NLP. We use layoutLM a BERT based model to process the text in the image and map them as question answers pairs, so that we can then transform it into json files.
 
 
 ## 2. Setting it all up 
@@ -55,6 +54,8 @@ LayoutLM <a href="https://drive.google.com/file/d/1ec84bdkRZ2aSatGBSbph3SHND-rsM
 
 ## 3. Running inference
 
+![alt text](imgs/Subex.jpg)
+
 
 To test custom images on our model, go inside the folder and run the command "python run_inference.py 00017.PNG (path of image file)"
 
@@ -73,15 +74,17 @@ Detecting Images:
 
 Example from Structure Recognition:
 
+![alt text](imgs/Finding_Tables.png)
+
 ![alt text](imgs/output1.jpg)
 
 
 <br>
 <p>
 
-If you are having troubles getting it to work, please feel free to contact me.
+If you are having troubles getting it to work, please feel free to contact me or raise an issue
 
 </p>
 <br>
 <p>
-Neham Jain (9328311831)
+Neham (nehamjain2002@gmail.com) & Tanay (dixittanay@gmail.com)
